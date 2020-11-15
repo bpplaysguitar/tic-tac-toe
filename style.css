@@ -1,0 +1,23 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 610px;
+  height: 610px;
+  justify-content: space-between;
+  background-color: black;
+}
+
+.grid div {
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  margin-bottom: 5px;
+}
+
+.playerX {
+  background-image: url(./images/tictactoe\ x.png);
+}
+
+.playerO {
+  background-image: url(./images/tictactoe\ o.png);
+}
