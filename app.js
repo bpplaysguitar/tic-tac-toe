@@ -39,27 +39,33 @@ function clickOutcome(e) {
             const square2 = squares[winningArrays[y][1]];
             const square3 = squares[winningArrays[y][2]];
 
-            //now check those arrays to see if they all have the class of player-one
+            //now check those arrays to see if they all have the class of playerX
             if(square1.classList.contains('playerX') &&
                 square2.classList.contains('playerX') &&
                 square3.classList.contains('playerX')) {
-                    //if they do, player-one is passed as the winner
+                    //if they do, playerX is passed as the winner
                     document.getElementById("result").classList.remove("hidden")
                     result.innerHTML = 'X wins!'
-                    
-          
-                    //remove ability to change result
+      //remove ability to change result
             } 
-            //now check to see if they all have the classname player two
+            //now check to see if they all have the classname playerO
             else if (square1.classList.contains('playerO') &&
                 square2.classList.contains('playerO') &&
                 square3.classList.contains('playerO')) {
-                    //if they do, player-two is passed as the winner as well as the chip positions
-                    
+                    //if they do, playerO is passed as the winner
                     document.getElementById("result").classList.remove("hidden")
                     result.innerHTML = 'O wins!'
+            // } else if 
             
-            }
+            // (
+            //   // result.innerHTML != 'O wins!' &&
+            //   // result.innerHTML != 'X wins!'
+            // )
+                
+            //     {
+            //     document.getElementById("result").classList.remove("hidden")
+            //         result.innerHTML = 'Draw!'
+                }
           }
         }
         fetch('https://jsonplaceholder.typicode.com/users')
