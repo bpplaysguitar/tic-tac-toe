@@ -54,8 +54,8 @@ h3 {
 .grid {
   display: flex;
   flex-wrap: wrap;
-  width: 410px;
-  height: 410px;
+  width: 392px;
+  height: 392px;
   justify-content: space-between;
   background: #36bef1;
   border: 10px solid rgb(255, 97, 94);
@@ -63,8 +63,8 @@ h3 {
 }
 
 .grid div {
-  height: 130px;
-  width: 130px;
+  height: 124px;
+  width: 124px;
   background-color: white;
   margin-bottom: 10px;
 }
