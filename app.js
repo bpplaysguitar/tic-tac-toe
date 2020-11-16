@@ -31,7 +31,7 @@ function clickOutcome(e) {
     function checkBoard() {
         //make const that shows all winning arrays
         const winningArrays = [
-        [0, 1, 2], [0, 3, 6], [0, 4, 8], [3, 4, 5], [6, 7, 8], [1, 4, 7], [2, 5, 7], [2, 4, 6]
+        [0, 1, 2], [0, 3, 6], [0, 4, 8], [3, 4, 5], [6, 7, 8], [1, 4, 7], [2, 5, 8], [2, 4, 6]
       ];
         //now take the 3 values in earch winningArray & plug them into the squares values 
         for(let y = 0; y < winningArrays.length; y++) {
