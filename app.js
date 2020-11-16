@@ -54,18 +54,7 @@ function clickOutcome(e) {
                 square3.classList.contains('playerO')) {
                     //if they do, playerO is passed as the winner
                     document.getElementById("result").classList.remove("hidden")
-                    result.innerHTML = 'O wins!'
-            // } else if 
-            
-            // (
-            //   // result.innerHTML != 'O wins!' &&
-            //   // result.innerHTML != 'X wins!'
-            // )
-                
-            //     {
-            //     document.getElementById("result").classList.remove("hidden")
-            //         result.innerHTML = 'Draw!'
-                }
+                    result.innerHTML = 'O wins!'}
           }
         }
         fetch('https://jsonplaceholder.typicode.com/users')
